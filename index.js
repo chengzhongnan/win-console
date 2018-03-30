@@ -1,5 +1,3 @@
-const winConsole = require('./build/Debug/winconsole');
+const winConsole = require('./build/Release/winconsole');
 
-module.exports = {
-    WinConsole : winConsole
-};
+module.exports = winConsole;
