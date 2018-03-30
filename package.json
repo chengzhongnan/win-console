@@ -1,0 +1,26 @@
+{
+  "name": "win-console",
+  "version": "1.0.0",
+  "description": "setting windows console properties.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-gyp configure build && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chengzhongnan/win-console.git"
+  },
+  "engines": {
+    "node" : ">=8.4.0"
+  },
+  "keywords": [
+    "win-console"
+  ],
+  "author": "chengzhongnan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chengzhongnan/win-console/issues"
+  },
+  "homepage": "https://github.com/chengzhongnan/win-console#readme"
+}
